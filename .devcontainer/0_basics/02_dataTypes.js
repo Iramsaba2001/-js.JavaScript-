@@ -19,9 +19,11 @@ let isLogged = false // boolean
 // null => it is a stand value it is a type also data type //it is also represent of empty value. but null can assigned as a null. null is a object
 // undefind => it mean not usigned value undefind is datatype
 //symbol => to find out uniquness
-
+//NaN => it is special type 
 
 //object=> 
 
-console.log(typeof "iramsaba"); 
-// if you want know which type of variable is then above code is used
+ console.log(typeof "iramsaba"); 
+console.log(typeof (Score));
+
+// 2 methods are there if you want know which type of variable is then above code is used

@@ -27,3 +27,5 @@ let isLogged = false // boolean
 console.log(typeof (Score));
 
 // 2 methods are there if you want know which type of variable is then above code is used
+ let a = Number("iram")
+ 

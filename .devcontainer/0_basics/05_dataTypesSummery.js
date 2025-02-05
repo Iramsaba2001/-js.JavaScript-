@@ -22,16 +22,47 @@ const bigNumber = 125485856226315n
 const heros = ["shaktiman", "nagraj" , "doga"];
 //Array
 
-let myObj = {
-    name: "iramsaba",
-    age:24
-}
-// its object in object we store any type of data like String int 
+// let myObj = {
+//     name: "iramsaba",
+//     age:24
+// }
+// // its object in object we store any type of data like String int 
 
-const myFunction = function(){
-    console.log("hello world");
+// const myFunction = function(){
+//     console.log("hello world");
     
+// }
+// // function 
+// console.log(typeof bigNumber);
+
+
+// memory
+// there is two types of memory avalaible in js
+// 1. stack 2. is heap
+//Stack memory for primitive // get copy of value
+//heap memory for non primetive // get refferance orignal value
+let myName = "saba"
+
+let anothername = myName
+anothername = "iramsaba"
+
+//
+
+//console.log(myName);
+console.log(myName);
+console.log(anothername); 
+// in this original value not change and copy will print //primitive stak memory
+
+let userOne ={
+    email: "user@google.com",
+    upi :"user@ybl"
 }
-// function 
-console.log(typeof bigNumber);
+// heap memory
+
+let userTwo =  userOne
+
+userTwo.email = "iram@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
 
